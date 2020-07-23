@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// setting up variable in sass
+$mainBlack: #222;
+$mainGreen: #82b430;
+$mainWhite: #fff;
+$mainGrey: #ececec;
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: $mainWhite;
+  color: $mainBlack;
+}
